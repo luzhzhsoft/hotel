@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Version {
 
-    @RequestMapping
+    @RequestMapping("/version")
     public String getVersion(){
         return "0.1.0";
     }
